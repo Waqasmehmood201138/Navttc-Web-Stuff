@@ -1,0 +1,47 @@
+.main-heading {
+    text-align: center;
+}
+.main-div-heading{
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.main-div {
+    overflow: auto;
+    width: 80%;
+   border-radius: 11px;
+    margin: auto;
+    background-color: blanchedalmond;
+    padding: 80px;
+    box-sizing: border-box;
+}
+.card-div{
+    background-color: white;
+    width: 18%;
+    float: left;
+    margin-left: 70px;
+    text-align: center;
+    padding: 11px;
+    border-radius: 10px;
+}
+.card-div p{
+    font-family: cursive;
+}
+.card-div img{
+    border-radius: 110px;
+    border: 3px solid rgb(227, 181, 112);
+    width: 100px;
+    margin-top: 10px;
+}
+.line{
+    width: 15%;
+    margin-bottom: 40px;
+    border: 2px solid rgb(86, 58, 58);
+    border-radius: 20px;
+    
+}
+.icon{
+    font-size: 30px;
+    margin: 5px;
+}
