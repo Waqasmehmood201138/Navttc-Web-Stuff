@@ -1,0 +1,77 @@
+/* day 06 code */
+
+body{
+    font-family:  monospace;
+}
+
+/* top dev style */
+
+.main-dev{
+
+    overflow: auto;
+    border: 2px solid black;
+}
+.main-dev-heading{
+    text-align: center;
+}
+.main-dev-img{
+    
+    width: 48%;
+    text-align: center;
+    float: left;
+}
+.main-dev-img img{
+    width: 70%;
+    height: auto;
+    margin-left: 86px;
+}
+.main-dev-content{
+    
+    width: 48%;
+    float: right;
+    margin-right: 47px;
+    
+}
+.main-dev-content h1{
+    text-align: center;
+}
+.main-dev-content p{
+    font-size: 15px;
+}
+
+/* seconad dev styling */
+
+.secondary-dev{
+
+    overflow: auto;
+    border: 2px solid black;
+    border-top: none;
+    
+}
+
+.secondary-dev-img{
+    
+    width: 48%;
+    text-align: center;
+    float: right;
+    margin-top: 20px;
+}
+.secondary-dev-img img{
+    width: 70%;
+    height: auto;
+    margin-right: 86px;
+}
+.secondary-dev-content{
+    
+    width: 48%;
+    float: left;
+    margin-left: 47px;
+    margin-top: 10px;
+    
+}
+.secondary-dev-content h1{
+    text-align: center;
+}
+.secondary-dev-content p{
+    font-size: 15px;
+}
