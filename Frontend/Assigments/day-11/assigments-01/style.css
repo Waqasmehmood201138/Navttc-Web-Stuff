@@ -1,0 +1,45 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    position: relative;
+    border: 2px solid green;
+    padding: 400px;
+    background-image: url("./images/bg-1.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    
+}
+.one , .two , .three, .four ,.five{
+    position: absolute;
+    /* border: 2px solid black; */
+    padding: 60px;
+    /* background-color: beige; */
+    font-family: cursive;
+    font-size: 25px;
+    color: red;
+}
+.one{
+    top: 0;
+    left: 0;
+}
+.two{
+    top: 0;
+    right: 0;
+}
+.three{
+    bottom: 0;
+    left: 0;
+}
+.four{
+    bottom: 0;
+    right: 0;
+}
+.five{
+    top: 40%;
+    left: 45%;
+}

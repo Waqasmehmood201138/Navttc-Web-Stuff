@@ -1,0 +1,40 @@
+.container{
+    position: relative;
+}
+.one, .two, .three, .four, .five{
+
+    
+    padding: 120px;
+    position: absolute;
+}
+
+.one{
+    top: 40px;
+    left: 30px;
+    background-color: aqua;
+    
+}
+.two{
+    top: 80px;
+    left: 60px;
+    background-color: blue;
+    
+}
+.three{
+    top: 120px;
+    left: 90px;
+    background-color: orange;
+}
+.four{
+    top: 160px;
+    left: 120px;
+    background-color: moccasin;
+    z-index: 1;
+    
+}
+.five{
+    top: 200px;
+    left: 150px;
+    background-color: purple;
+}
+
