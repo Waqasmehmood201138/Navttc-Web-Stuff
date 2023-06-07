@@ -1,0 +1,181 @@
+.body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    border: 2px solid blue;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.container-1 {
+
+    height: 80px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+.c1-row-1 {
+
+    height: 70px;
+    border: 2px solid green;
+    flex-basis: 10%;
+
+}
+
+.c1-row-2 {
+
+    height: 70px;
+    border: 2px solid green;
+    flex-basis: 15%;
+
+}
+
+.container-2 {
+
+    height: 495px;
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-2-1 {
+
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding: 5px;
+}
+
+.c2-1-box1 {
+
+    height: 160px;
+    border: 2px solid blue;
+    flex-basis: 15%;
+}
+
+.c2-1-box2 {
+
+    height: 160px;
+    border: 2px solid blue;
+    flex-basis: 15%;
+}
+
+.c2-1-box3 {
+
+    height: 160px;
+    border: 2px solid blue;
+    flex-basis: 15%;
+}
+
+.container-2-2 {
+
+    height: 220px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.c2-2-box1 {
+    height: 180px;
+    border: 2px solid red;
+    flex-basis: 15%;
+    border-radius: 50%;
+}
+
+.c2-2-box2 {
+    height: 180px;
+    border: 2px solid red;
+    flex-basis: 15%;
+    border-radius: 50%;
+}
+
+.c2-2-box3 {
+    height: 180px;
+    border: 2px solid red;
+    flex-basis: 15%;
+    border-radius: 50%;
+}
+
+.c2-2-box4 {
+    height: 180px;
+    border: 2px solid red;
+    flex-basis: 15%;
+    border-radius: 50%;
+}
+
+.container-3 {
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conatiner-3-1 {
+
+    height: 200px;
+    border: 1px solid red;
+    flex-basis: 35%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.c3-1-box1 {
+
+
+    flex-basis: 40%;
+    border: 1px solid pink;
+
+}
+
+.c3-1-box2 {
+
+
+    flex-basis: 20%;
+    border: 1px solid pink;
+
+}
+
+.conatiner-3-2 {
+
+    height: 200px;
+    border: 1px solid red;
+    flex-basis: 35%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.c3-2-box1 {
+
+
+    flex-basis: 40%;
+    border: 1px solid pink;
+
+}
+
+.c3-2-box2 {
+
+
+    flex-basis: 20%;
+    border: 1px solid pink;
+
+}
