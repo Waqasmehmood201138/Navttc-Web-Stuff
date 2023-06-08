@@ -27,11 +27,11 @@ Here you will find the result (output) of codes given
 # Day 11 Assignmnet 02 :
 ![day-11-1](https://github.com/Waqasmehmood201138/Navttc-Web-Stuff/assets/95920177/06ef65d1-835e-4340-b009-9c6bced0f625)
 
-# Day 12 Assignment 01 :
+# Day 12 Assignment 01 (display flex layout) :
 ![day-12](https://github.com/Waqasmehmood201138/Navttc-Web-Stuff/assets/95920177/1c461dc3-92a8-44e5-b810-d2acb0d6c792)
 
-# Day 12 Assignment 02 :
+# Day 12 Assignment 02 (display flex layout):
 ![day-12-1](https://github.com/Waqasmehmood201138/Navttc-Web-Stuff/assets/95920177/7848576f-b1c8-49d8-8e5e-3442f43181f7)
 
-# Day 13 Assignment 01 :
+# Day 13 Assignment 01 (display grid layout) :
 ![day-13](https://github.com/Waqasmehmood201138/Navttc-Web-Stuff/assets/95920177/62a62736-ba27-402e-ba69-216fba730dd6)
