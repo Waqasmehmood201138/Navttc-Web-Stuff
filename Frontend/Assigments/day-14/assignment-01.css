@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: #f5f5f5;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.logo {
+    font-weight: bold;
+    color: #333;
+
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+}
+
+ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+}
+
+ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    color: #333;
+}
+
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #79e67e;
+}
+.one ul li a:hover{
+    color: #79e67e;
+}
+.one li{
+    margin-right: 10px;
+}
+
+/* navbar two style code */
+
+.two {
+
+    margin-top: 20px;
+    justify-content: space-evenly;
+    background-color: #4ca24c;
+    padding: 1px;
+    margin: 10px;
+
+}
+
+.two-a {
+    color: #fff;
+    font-size: 16px;
+}
+.two-a:hover{
+    color: #e2e2e2;
+}
+.two li{
+    margin-right: 10px;
+}
+
+
+/* navbar three style code */
+
+.three {
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #333;
+    padding: 1px;
+    margin: 10px;
+
+}
+
+.three button {
+    background-color: #79e67e;
+    margin-right: 20px;
+}
+
+.three button:hover {
+    background-color: #4ca24c;
+    color: whitesmoke;
+}
+
+.three img {
+    margin-left: -150px;
+    height: 60px;
+    width: 60px;
+}
+.three li a{
+    color: #fff;
+    font-size: 16px;
+}
+.three li{
+    margin-right: 10px;
+}
+
+.three li a:hover {
+    color: #79e67e;
+    border-radius: 10px;
+}
