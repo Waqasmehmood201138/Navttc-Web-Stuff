@@ -35,3 +35,6 @@ Here you will find the result (output) of codes given
 
 # Day 13 Assignment 01 (display grid layout) :
 ![day-13](https://github.com/Waqasmehmood201138/Navttc-Web-Stuff/assets/95920177/62a62736-ba27-402e-ba69-216fba730dd6)
+
+# Day 14 different navbar designs snap :
+![Screenshot (113)](https://github.com/Waqasmehmood201138/Navttc-Web-Stuff/assets/95920177/8dc4706a-48c7-45f7-a91f-38a7babb15d1)
