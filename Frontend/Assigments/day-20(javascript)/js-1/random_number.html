@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    button {
+        padding: 40px;
+        border: none;
+        width: 10%;
+        
+        margin: auto;
+        background-color: aqua;
+        font-size: 30px;
+        
+    }
+    #container{
+        color: rgb(107, 94, 78);
+        font-size: 30px;
+        font-weight: bold;
+ 
+    }
+    .image{
+        width: 10%;
+        height: 10%;
+    }
+
+</style>
+
+<body>
+    <button id="btn" onclick="Generate()">Generate</button>
+    <div id="container"></div>
+    <!-- <img src="../images/dice-six-faces-one.png" alt="img-one"> -->
+</body>
+<script>
+
+    var gen;
+
+    function Generate() {
+
+        gen = Math.floor(Math.random() * 6) + 1
+        document.getElementById("btn").innerHTML = gen
+
+        if(gen==1){
+            document.getElementById("container").innerHTML = "<div> <img class='image' src='../images/dice-six-faces-one.png' alt='img-one'> </div>"
+        }
+        else if(gen==2){
+            document.getElementById("container").innerHTML = "<div> <img class='image' src='../images/dice-six-faces-two.png' alt='img-one'> </div>"
+        }
+        else if(gen==3){
+            document.getElementById("container").innerHTML = "<div> <img class='image' src='../images/dice-six-faces-three.png' alt='img-one'> </div>"
+        }
+        else if(gen == 4){
+            document.getElementById("container").innerHTML = "<div> <img class='image' src='../images/dice-six-faces-four.png' alt='img-one'> </div>"
+        }
+        else if (gen == 5){
+            document.getElementById("container").innerHTML = "<div> <img class='image' src='../images/dice-six-faces-five.png' alt='img-one'> </div>"
+        }
+        else if( gen == 6){
+            document.getElementById("container").innerHTML = "<div> <img class='image' src='../images/dice-six-faces-six.png' alt='img-one'> </div>"
+        }
+
+    }
+
+</script>
+
+</html>
