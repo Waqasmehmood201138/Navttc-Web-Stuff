@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-5 mt-3">
+                <form action="" onsubmit="return getDetails()">
+
+                    <h2>Student Data</h2>
+                    <input type="text" id="name" placeholder="Enter Student Name" required><br><br>
+                    <input type="number"  id="islamyat" placeholder="Islamyat marks (50)" required><br><br>
+                    <input type="number"  id="english" placeholder="English marks (100)" required><br><br>
+                    <input type="number"  id="urdu" placeholder="Urdu marks (100)" required><br><br>
+                    <input type="number"  id="math" placeholder="Math marks (100)" required><br><br>
+                    <input type="number"  id="physics" placeholder="Physics marks (100)" required><br><br>
+                    <input type="number"  id="chemistry" placeholder="Chemistry marks (100)" required><br><br>
+                    <input class="btn btn-primary" type="submit">
+                </form>
+            </div>
+            <div class="col-7 mt-3">
+                <div id="output">
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="./studentData.js"></script>
+
+</html>
