@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+
+<body>
+    <!-- <button onclick="sizeChange()">sizeChange</button> -->
+
+    <!-- <button onclick="center()">Text Center</button>
+    <button onclick="left()">Float Left</button>
+    <button onclick="right()">Float right</button> -->
+
+    <form action="" onsubmit="return output()">
+        <input id="start" type="text" placeholder="Enter Start Value">
+        <input id="end" type="text" placeholder="Enter End Value">
+        <input type="submit">
+    </form>
+    
+</body>
+<script>
+
+    
+    function output (){
+        
+        let startPoint = document.getElementById('start').value;
+        let endPoint = document.getElementById('end').value;
+       
+        for(let i=startPoint; i<endPoint; i++){
+
+          
+          console.log(i)
+        }
+
+return false;
+
+       }
+
+    // const h1 = document.createElement('h1');
+    // h1.innerHTML = "I am Heading One"
+    // h1.style.backgroundColor = "yellow"
+    // document.body.append(h1)
+
+    // const para = document.createElement('p')
+    // para.innerHTML = "hello"
+
+
+    // document.body.append(para)
+
+    // function center(){
+
+    //     para.style.textAlign = "center" 
+    // }
+
+    // function left (){
+    //     para.style.textAlign = "left"
+    // }
+    // function right (){
+    //     para.style.textAlign = "right"
+    // }
+    
+    
+
+</script>
+
+</html>

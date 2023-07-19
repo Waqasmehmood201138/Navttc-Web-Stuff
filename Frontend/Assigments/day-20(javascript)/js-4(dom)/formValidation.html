@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" onsubmit="return formOutput()">
+        <input id="name" type="text" placeholder="Username"><br>
+        <label id="username" for=""></label>
+        <br>
+        
+        <input id="age" type="number" placeholder="Age"><br>
+        <label id="agelabel" for=""></label>
+        
+        <br>
+        <input id="per" type="number" placeholder="Percentage"><br>
+        <label id="agelabel" for=""></label><br>
+        <br>
+        <input type="submit">
+        <label id="submitted" for=""></label>
+    </form>
+</body>
+<script>
+
+    function formOutput(){
+
+        let nameValue = document.getElementById('name').value;
+        let ageValue = document.getElementById('age').value;
+        let perValue = document.getElementById('per').value;
+
+        if(nameValue == null || nameValue == "" || nameValue.length < 3){
+            document.getElementById('username').innerHTML = "field required"
+        }
+        else if(ageValue == null || ageValue.length >2 || ageValue == ""){
+            document.getElementById('agelabel').innerHTML = "field required"
+            
+        }
+        else if (perValue == null || perValue.length >2 || perValue == ""){
+            document.getElementById('perlabel').innerHTML = "field required"
+            
+        }
+        else{
+            document.getElementById('submitted').innerHTML = "Submitted Successfully"
+            
+        }
+
+        return false
+    }
+</script>
+</html>
